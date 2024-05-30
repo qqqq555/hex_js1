@@ -133,7 +133,11 @@
     max-width: 100%; 
     height: auto;
 }
-
+@media (max-width: 1280px) {
+    .img-fluid {
+        max-width: 50%; 
+    }
+}
 @media (max-width: 767px) {
     .img-fluid {
         max-width: 80%; 
@@ -162,6 +166,7 @@
 input[type=text]{
     border: 2px solid #ccc;
 }
+
 
 @media (max-width: 767px) {
     .card {
